@@ -18,6 +18,9 @@
     "fix:eslint": "eslint --fix src/**/*",
     "fix:prettier": "prettier --write src/**/*"
   },
+  "bin": {
+    "npm-package": "bin/index.js"
+  },
   "dependencies": {
     "@types/node": "^15.12.2",
     "tsc": "^2.0.3",
