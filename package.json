@@ -3,5 +3,10 @@
   "version": "1.0.0",
   "main": "index.js",
   "author": "Akira Shinohara <akira.shinohara@mojamoja.cloud>",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "@types/node": "^15.12.2",
+    "tsc": "^2.0.3",
+    "typescript": "^4.3.2"
+  }
 }
