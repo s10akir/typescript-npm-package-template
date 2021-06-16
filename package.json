@@ -10,7 +10,7 @@
   ],
   "scripts": {
     "postinstall": "husky install",
-    "prepack": "pinst --disable",
+    "prepack": "pinst --disable && npm run build",
     "postpack": "pinst --enable",
     "build": "tsc",
     "lint": "eslint src/**/*",
