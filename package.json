@@ -1,9 +1,13 @@
 {
   "name": "npm-package",
   "version": "1.0.0",
-  "main": "index.js",
   "author": "Akira Shinohara <akira.shinohara@mojamoja.cloud>",
   "license": "MIT",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
   "scripts": {
     "postinstall": "husky install",
     "prepack": "pinst --disable",
