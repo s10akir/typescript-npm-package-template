@@ -13,10 +13,10 @@
     "prepack": "pinst --disable && npm run build",
     "postpack": "pinst --enable",
     "build": "tsc",
-    "lint": "eslint src/**/*",
+    "lint": "eslint 'src/**/*'",
     "fix": "npm-run-all -p fix:eslint fix:prettier",
-    "fix:eslint": "eslint --fix src/**/*",
-    "fix:prettier": "prettier --write src/**/*"
+    "fix:eslint": "eslint --fix 'src/**/*'",
+    "fix:prettier": "prettier --write 'src/**/*'"
   },
   "bin": {
     "npm-package": "bin/index.js"
